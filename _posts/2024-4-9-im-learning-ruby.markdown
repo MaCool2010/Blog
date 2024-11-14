@@ -11,8 +11,15 @@ categories: programming
 ---
 I'm learning Ruby, and it's really fun. Here are some differences I've noticed between Ruby and Python so far.
 
-{% highlight ruby %}# hello world in Python   
-print("hello")       # hello world in Ruby   puts "hello" # prints with new line   print "hello" #does not make new line{% endhighlight %}
+{% highlight ruby %}
+# hello world in Ruby   
+puts "hello" # prints with new line   
+print "hello" #does not make new line
+{% endhighlight %}
+{% highlight python %}
+# hello world in Python   
+print("hello")
+{% endhighlight %}
 
 It's interesting because in Python, `print()` defaults to end with `"\n"`. This is the new line character. Adding `end=' '` would end with a space instead.  
 In Ruby, `puts` ends with a `"\n"`, but `print` does not. I'm not sure if this is a better way than Python, but it's an interesting difference.
