@@ -26,9 +26,11 @@ In Ruby, `puts` ends with a `"\n"`, but `print` does not. I'm not sure if this i
 
 Ruby also has `unless`. It's the oposite of an if statment.
 
-  {% highlight python %}#Python     
-  hp = 0     if not hp == 0:       
-  print("alive") 
+  {% highlight python %}
+  #Python     
+  hp = 0     
+  if not hp == 0:       
+    print("alive") 
   {% endhighlight %}        
   {% highlight ruby %}
   #Ruby     
