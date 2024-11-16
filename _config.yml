@@ -28,9 +28,12 @@ github_username:  macool2010
 youtube_username:  "@MC.mp4"
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: jekyll/minima
+
 minima:
   skin: dark
 
