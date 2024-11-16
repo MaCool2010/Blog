@@ -6,7 +6,7 @@ title: "Cool Fonts"
 
 date: 2024-3-12 18:49:55 -0600
 
-categories: fonts design
+categories:  design
 
 ---
 Fonts are cool, so here are some of my favorites.
